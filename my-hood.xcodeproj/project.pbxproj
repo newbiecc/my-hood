@@ -13,6 +13,7 @@
 		91B9EE9D1C377573009ECF57 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 91B9EE9C1C377573009ECF57 /* Assets.xcassets */; };
 		91B9EEA01C377573009ECF57 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 91B9EE9E1C377573009ECF57 /* LaunchScreen.storyboard */; };
 		91B9EEAB1C37B68B009ECF57 /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91B9EEAA1C37B68B009ECF57 /* Post.swift */; };
+		91B9EEAE1C37C8C0009ECF57 /* PostCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91B9EEAD1C37C8C0009ECF57 /* PostCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		91B9EE9F1C377573009ECF57 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		91B9EEA11C377573009ECF57 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		91B9EEAA1C37B68B009ECF57 /* Post.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
+		91B9EEAD1C37C8C0009ECF57 /* PostCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,7 +58,6 @@
 		91B9EE941C377573009ECF57 /* my-hood */ = {
 			isa = PBXGroup;
 			children = (
-				91B9EEA91C37B607009ECF57 /* Contoller */,
 				91B9EEA81C37B5FD009ECF57 /* View */,
 				91B9EEA71C37B5F6009ECF57 /* Model */,
 				91B9EE951C377573009ECF57 /* AppDelegate.swift */,
@@ -80,15 +81,9 @@
 		91B9EEA81C37B5FD009ECF57 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				91B9EEAD1C37C8C0009ECF57 /* PostCell.swift */,
 			);
 			name = View;
-			sourceTree = "<group>";
-		};
-		91B9EEA91C37B607009ECF57 /* Contoller */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			name = Contoller;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -166,6 +161,7 @@
 				91B9EEAB1C37B68B009ECF57 /* Post.swift in Sources */,
 				91B9EE981C377573009ECF57 /* ViewController.swift in Sources */,
 				91B9EE961C377573009ECF57 /* AppDelegate.swift in Sources */,
+				91B9EEAE1C37C8C0009ECF57 /* PostCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
